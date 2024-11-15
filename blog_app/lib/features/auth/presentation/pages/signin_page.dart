@@ -1,4 +1,4 @@
-import 'package:blog_app/app_palette.dart';
+import 'package:blog_app/core/theme/app_palette.dart';
 import 'package:blog_app/features/auth/presentation/widgets/auth_field.dart';
 import 'package:blog_app/features/auth/presentation/widgets/auth_gradient_button.dart';
 import 'package:flutter/material.dart';
