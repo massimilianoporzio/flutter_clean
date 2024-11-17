@@ -12,6 +12,8 @@ abstract interface class AuthRemoteDataSource {
     required String password,
   });
 }
+//interfaccia con STRING! non con Either Failure or String (come nel domain)
+//qui è solo puro accesso per ottenere una stringa
 
 class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
   final SupabaseClient supabaseClient;
